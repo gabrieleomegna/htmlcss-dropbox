@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
+    <!-- LINK CSS  -->
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header> <!-- header, height 80vh?, divided into 2 sections: nav-bar and main-header -->
-        <nav> <!-- nav-bar, no common-width, section into nav-bar organized in space-between -->
-            
+    <header class="border-test"> <!-- header, height 100px, nav-bar divided into 2 ul: left and right -->
+        <nav id="nav-header"> <!-- nav-bar, no common-width, ul into nav-bar organized in space-between -->
+            <ul class="border-test"> <!-- left ul -->
+                <li id="logo"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="border-test"> <!-- right ul -->
+                <li></li>
+                <li></li>
+                <li></li>
+                <li id="button" class="button-size"></li>
+            </ul>
         </nav>
-        <main-header> <!-- main-header, hdr-ftr-common-width, -->
-
-        </main-header>
     </header>
-    <main> <!-- main, devided into 6 sections, common-width except the penultimate section, -->
+    <main> <!-- main, devided into 7 sections, common-width except first and penultimate sections, -->
+        <section id="jumbotron"> <!-- section with main-title, jumbo-ftr-common-width -->
+
+        </section>
         <section></section>
         <section></section>
         <section></section>
@@ -26,7 +39,7 @@
         <section id="upper-footer"> <!-- upper-footer, common-width -->
 
         </section>
-        <section id="bottom-footer"> <!-- bottom-footer, hdr-ftr-coommon-width -->
+        <section id="bottom-footer"> <!-- bottom-footer, jumbo-ftr-common-width -->
 
         </section>
     </footer>

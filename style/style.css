@@ -4,3 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+.border-test {
+    border: 1px dashed black;
+}
+
+/* HEADER */
+
+#nav-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-header > ul {
+    height: 100%;
+    width: 30%;
+}
+ul {
+    list-style: none;
+}
+
+
+/* MAIN */
+
+
+
+
+/* FOOTER */
+
+
