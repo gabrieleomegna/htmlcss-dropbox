@@ -6,25 +6,31 @@
     <title>Dropbox</title>
     <!-- LINK CSS  -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header class="border-test"> <!-- header, height 100px, nav-bar divided into 2 ul: left and right -->
+    <header> <!-- header, height 100px, nav-bar divided into 2 ul: left and right -->
         <nav id="nav-header"> <!-- nav-bar, no common-width, ul into nav-bar organized in space-between -->
-            <ul class="border-test"> <!-- left ul -->
-                <li id="logo"></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul class="hdr-list flex-center"> <!-- left ul -->
+                <li><img src="img/logo-small.png" alt="logo"></li> <!-- dropbox logo -->
+                <li>Perché Dropbox</li>
+                <li>Funzioni</li>
+                <li>Piani e Prezzi</li>
             </ul>
-            <ul class="border-test"> <!-- right ul -->
-                <li></li>
-                <li></li>
-                <li></li>
-                <li id="button" class="button-size"></li>
+            <ul class="hdr-list flex-center"> <!-- right ul -->
+                <li>Supporto</li>
+                <li>Contatta l'ufficio vendite</li>
+                <li>Accedi</li>
+                <li id="button"><button class="button-size">Inizia</button></li>
             </ul>
         </nav>
     </header>
-    <main> <!-- main, devided into 7 sections, common-width except first and penultimate sections, -->
+    <main class="border-test"> <!-- main, devided into 7 sections, common-width except first and penultimate sections, -->
         <section id="jumbotron"> <!-- section with main-title, jumbo-ftr-common-width -->
 
         </section>
@@ -35,7 +41,7 @@
         <section></section>
         <section></section>
     </main>
-    <footer> <!-- footer, height in vh?, divided into 2 sections: upper-footer and bottom-footer -->
+    <footer class="border-test"> <!-- footer, height in vh?, divided into 2 sections: upper-footer and bottom-footer -->
         <section id="upper-footer"> <!-- upper-footer, common-width -->
 
         </section>
