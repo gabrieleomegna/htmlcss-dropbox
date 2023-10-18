@@ -160,9 +160,21 @@ div#input-container > * {
     width: 20%;
     opacity: .5;
 }
-
-
-
+.button-bsn-plan p {
+    margin-top: 1.5rem;
+}
+.fa-check {
+    color: rgb(0, 95, 255);
+}
+.highlights-bsn-plan > * {
+    padding-bottom: 1.7rem;
+}
+.highlights-list > p {
+    margin-bottom: 1.2rem;
+}
+.highlights-bsn-plan h3 {
+    font-size: .7rem;
+}
 
 
 
