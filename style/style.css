@@ -39,7 +39,7 @@ ul.hdr-list li{
     color: white;
     background-color: rgb(0, 97, 255);
     border: none;
-    padding: .4rem 1rem;
+    padding: .5rem 1.5rem;
 }
 
 
@@ -92,10 +92,10 @@ section#jmb-image img {
 }
 /* Big section */
 .big-section {
-    height: 800px;
+    /* height: 800px; */
 }
 .common-size {
-    width: 50%;
+    width: 58%;
     margin: 0 auto;
 }
 /* Big section box with section title of main and radio-buttons */
@@ -120,7 +120,7 @@ div#input-container > * {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 600px;
+    /* height: 600px; */
 }
 .bsn-plan {
     width: calc((100% / 3) - 1.5rem);
@@ -129,15 +129,48 @@ div#input-container > * {
 .bsn-plan-border {
     border: 1px solid rgb(208, 208, 211);
 }
+.bsn-plan > *:not(.top-bsn-plan) {
+    margin: 2.5rem 0;
+}
 #bsn-plan-different {
     width: 100%;
 }
+/* Section of bsn-plan on top */
 .top-bsn-plan {
     text-align: center ;
     /* font-weight: 200; */
     border-bottom: 1px solid rgb(208, 208, 211);
     padding: .5rem 0;
 }
+/* bns-plan description*/
+.title-bsn-plan p:nth-child(2) {
+    font-weight: 800;
+}
+.title-bsn-plan .payment-deadline {
+    color: grey;
+    margin-top: .5rem;
+} 
+.title-bsn-plan > *:not(.payment-deadline) {
+    margin-top: 1rem;
+}
+.description-bsn-plan > *  {
+    margin-bottom: 1rem;
+}
+.bsn-plan hr {
+    width: 20%;
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 footer section {
