@@ -30,11 +30,11 @@
             </ul>
         </nav>
     </header>
-    <main class="border-test"> <!-- main, devided into 7 sections, common-width except first and penultimate sections, -->
+    <main> <!-- main, devided into 7 sections, common-width except first and penultimate sections, -->
         <section id="jumbo"> <!-- section with main-title, jumbo-ftr-common-width -->
             <div id="jmb-container" class="jmb-ftr-common-size border-test">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-                <section>
+                <div>
                     <section id="jmb-description">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uo spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <button class="button-size">Inizia la tua prova gratuita</button>
@@ -46,17 +46,31 @@
                     <section id="jmb-image">
                         <img src="img/jumbo.png" alt="image dropbox layout">
                     </section>
-                </section>
+                </div>
+            </div>
+        </section>
+        <section class="big-section border-test">
+            <section id="main-section-title" class="border-test common-size"> <!-- Big section box with section title of main and radio-buttons -->
+                <h1>Trova il piano business che fa per te</h1>
+                <div id="input-container"> <!-- input container --> 
+                    <input type="radio" name="Fatturazione"><span>Fatturazione mensile</span> 
+                    <input type="radio" name="Fatturazione"><span>Fatturazione annuale</span> 
+                </div>
+            </section>
+            <div class="flex-wrap common-size border-test"> <!-- Box of big section with 4 columns in flex -->
+                <section class="column"></section>
+                <section class="column"></section>
+                <section class="column"></section>
+                <section class="column"></section>
             </div>
         </section>
         <section></section>
-        <section></section>
-        <section></section>
+        <section class="big section"></section>
         <section></section>
         <section></section>
         <section></section>
     </main>
-    <footer class="border-test"> <!-- footer, height in vh?, divided into 2 sections: upper-footer and bottom-footer -->
+    <footer class="border-test"> <!-- footer, height in px, divided into 2 sections: upper-footer and bottom-footer -->
         <section id="upper-footer"> <!-- upper-footer, common-width -->
 
         </section>

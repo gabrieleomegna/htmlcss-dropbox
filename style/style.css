@@ -16,6 +16,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+.height-test {
+    height: 800px;
+}
 
 /* HEADER */
 #nav-header {
@@ -41,7 +44,9 @@ ul.hdr-list li{
 
 
 /* MAIN */
-
+main > section:not(#jumbo) {
+    padding: 4rem 0;
+}
 /* Jumbotron */
 .jmb-ftr-common-size {
     width: 63%;
@@ -55,7 +60,7 @@ ul.hdr-list li{
     display: flex;
     flex-direction: column;
 }
-div#jmb-container > section {
+div#jmb-container > div {
     display: flex;
     position: relative;
     top: 4rem;
@@ -85,6 +90,38 @@ section#jmb-image {
 section#jmb-image img {
     width: 100%;
 }
+/* Big section */
+.big-section {
+    height: 800px;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.common-size {
+    width: 50%;
+    margin: 0 auto;
+}
+/* Big section box with section title of main and radio-buttons */
+#main-section-title span {
+    font-size: .8rem;
+}
+#main-section-title input {
+    vertical-align: middle;
+}
+#main-section-title > * {
+    padding-bottom: 2.3rem;
+}
+#main-section-title > h1 {
+    font-size: 1.5rem;
+}
+
+div#input-container > * {
+    padding-right: 3rem;
+}
+/* Big section box with 4 colums in flex
+
 
 /* FOOTER */
 footer section {
