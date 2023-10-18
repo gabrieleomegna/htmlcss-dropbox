@@ -123,14 +123,15 @@ div#input-container > * {
     /* height: 600px; */
 }
 .bsn-plan {
-    width: calc((100% / 3) - 1.5rem);
-    font-size: .8rem;
+    width: calc((100% / 3) - 1.8rem);
+    font-size: .75rem;
 }
 .bsn-plan-border {
     border: 1px solid rgb(208, 208, 211);
 }
 .bsn-plan > *:not(.top-bsn-plan) {
     margin: 2.5rem 0;
+    padding: 0 1.5rem;
 }
 #bsn-plan-different {
     width: 100%;
@@ -153,9 +154,10 @@ div#input-container > * {
 .title-bsn-plan > *:not(.payment-deadline) {
     margin-top: 1rem;
 }
-.description-bsn-plan > *  {
+.description-bsn-plan ul > *  {
     margin-bottom: 1rem;
 }
+
 .bsn-plan hr {
     width: 20%;
     opacity: .5;
@@ -163,13 +165,17 @@ div#input-container > * {
 .button-bsn-plan p {
     margin-top: 1.5rem;
 }
+
+.button-bsn-plan button {
+    font-size: .7rem;
+}
 .fa-check {
     color: rgb(0, 95, 255);
 }
 .highlights-bsn-plan > * {
     padding-bottom: 1.7rem;
 }
-.highlights-list > p {
+.highlights-list > li {
     margin-bottom: 1.2rem;
 }
 .highlights-bsn-plan h3 {
