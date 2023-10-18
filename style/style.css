@@ -122,16 +122,22 @@ div#input-container > * {
     justify-content: space-between;
     height: 600px;
 }
-.column {
+.bsn-plan {
     width: calc((100% / 3) - 1.5rem);
+    font-size: .8rem;
 }
-.column-border {
+.bsn-plan-border {
     border: 1px solid rgb(208, 208, 211);
 }
-#column-different {
+#bsn-plan-different {
     width: 100%;
 }
-
+.top-bsn-plan {
+    text-align: center ;
+    /* font-weight: 200; */
+    border-bottom: 1px solid rgb(208, 208, 211);
+    padding: .5rem 0;
+}
 
 /* FOOTER */
 footer section {
