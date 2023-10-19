@@ -120,12 +120,14 @@ div#input-container > * {
     justify-content: space-between;
     /* height: 600px; */
 }
-.bsn-plan {
+.column {
     width: calc((100% / 3) - 1.8rem);
-    font-size: .75rem;
 }
 .bsn-plan-border {
     border: 1px solid rgb(208, 208, 211);
+}
+.bsn-plan {
+    font-size: .75rem;
 }
 
 /* Section of bsn-plan on top */
@@ -178,6 +180,7 @@ div#input-container > * {
 #bsn-different {
     width: 100%;
     font-size: .75rem;
+    margin-top: 2.5rem;
 }
 .bsn-plan-common-distance > *:not(.top-bsn-plan) {
     margin: 2.5rem 0;
@@ -197,8 +200,26 @@ div#input-container > * {
     margin-top: 3rem;
 }
 
-
-
+/* Section with possible operations with dropbox */
+.operations > * {
+    margin: 2rem 0;
+}
+.operations {
+    font-size: .85rem;
+}
+#operations-title {
+    font-size: 1.3rem;
+}
+.operations-image img {
+    width: 100%;
+}
+.op-column > * {
+    padding: 0 .5rem;
+}
+.op-description > h3 {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
 
 
 
