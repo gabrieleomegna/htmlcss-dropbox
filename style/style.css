@@ -53,8 +53,10 @@ main > section:not(#jumbo) {
     margin: 0 auto;
 }
 #jumbo {
-    background-color: rgb(180, 208, 231);
     padding-top: 4.5rem;
+}
+.bg-light-blue {
+    background-color: rgb(180, 208, 231);
 }
 #jmb-container {
     display: flex;
@@ -240,6 +242,19 @@ div#input-container > * {
 }
 .small-section-description > * {
     margin-top: 1rem;
+}
+.small-section-title {
+    font-size: 2rem;
+    width: 55%;
+}
+#small-container p {
+    margin-top: 3rem;
+}
+#button-diff {
+    padding: .5rem 2.5rem;
+    color: black;
+    background-color: white;
+    border: none;
 }
 
 /* FOOTER */
