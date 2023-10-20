@@ -204,8 +204,10 @@ div#input-container > * {
 .operations > * {
     margin: 2rem 0;
 }
-.operations {
+
+.font-size {
     font-size: .85rem;
+    
 }
 #operations-title {
     font-size: 1.3rem;
@@ -220,8 +222,25 @@ div#input-container > * {
     font-size: 1.2rem;
     padding-bottom: 2rem;
 }
-
-
+/* Small main sections */
+.small-section-image {
+    width: calc(60% - 1rem);
+}
+.small-section-image img {
+    width: 100%;
+}
+.small-section-description {
+    width: calc(40% - 1rem);
+    padding-top: 2rem;
+}
+#button-white {
+    color: black;
+    background-color: white;
+    border: .5px solid;
+}
+.small-section-description > * {
+    margin-top: 1rem;
+}
 
 /* FOOTER */
 footer section {
