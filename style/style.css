@@ -45,7 +45,7 @@ ul.hdr-list li{
 
 /* MAIN */
 main > section:not(#jumbo, #full-width-section) {
-    padding: 4rem 0;
+    padding: 6rem 0;
 }
 /* Jumbotron */
 .jmb-ftr-common-size {
@@ -154,7 +154,7 @@ div#input-container > * {
     margin-bottom: 1rem;
 }
 
-.bsn-plan hr {
+hr {
     width: 20%;
     opacity: .5;
 }
@@ -208,7 +208,7 @@ div#input-container > * {
 }
 
 .font-size {
-    font-size: .85rem;
+    font-size: .8rem;
     
 }
 #operations-title {
@@ -294,7 +294,19 @@ main > #full-width-section {
 .bg-yellow {
     background-color: rgb(255, 216, 48);
 }
+.bg-white {
+    background-color: rgb(245, 245, 245);
+}
+#middle-square {
+    padding: 0 2.5rem;
+}
+#middle-square img {
+    width: 50%;
+}
 
+#middle-square > * {
+    padding-top: 3rem;
+}
 /* FOOTER */
 footer section {
     height: 600px;
