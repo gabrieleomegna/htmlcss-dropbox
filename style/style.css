@@ -256,6 +256,9 @@ hr {
     background-color: white;
     border: none;
 }
+#color-purple {
+    color: rgb(97, 8, 43);
+}
 /* Full-width section */
 main > #full-width-section {
     width: 100vw;
