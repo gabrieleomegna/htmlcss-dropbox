@@ -213,6 +213,7 @@ hr {
 }
 #operations-title {
     font-size: 1.3rem;
+    padding-bottom: 3rem;
 }
 .operations-image img {
     width: 100%;
@@ -333,4 +334,27 @@ footer .up-ftr-section > p {
 #bottom-footer {
     background-color: black;
     color: white;
+    padding: 4rem 0;
+}
+.ftr-list li#list-title{
+    padding-bottom: 1.5rem;
+}
+.ftr-list > li {
+    padding-bottom: .8rem;
+}
+#bottom-footer ul {
+    padding-bottom: 3rem;
+}
+#bottom-footer hr {
+    width: 10%;
+    border: 1px solid white;
+}
+#language {
+    color: grey;
+}
+#bottom-footer .jmb-ftr-common-size > * {
+    margin-top: 3rem;
+}
+#language span {
+    padding: 0 .5rem;
 }
